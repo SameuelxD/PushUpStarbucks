@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../ESTILOS/estilos.css">
+    <title>Starbucks</title>
+</head>
+
+<body>
+    <div class="container-principal">
+        <div class="columna_uno">
+            <div class="logo">
+                <a href="index.html"><img src="../ESTILOS/img/logo.png" alt="logo"></a>
+            </div>
+            <h2 class="titulo">It's not just Cofee</h2>
+            <h2 class="titulo">It's <span id="starbucks" style="color: #017143;">Starbucks</span></h2>
+            <div class="item_uno">
+                <h3>Descripcion Descripcion Descripcion</h3>
+                <h3>Descripcion Descripcion Descripcion</h3>
+                <h3>Descripcion Descripcion Descripcion</h3>
+                <h3>Descripcion Descripcion Descripcion</h3>
+                <h3>Descripcion Descripcion Descripcion</h3>
+            </div>
+        </div>
+        <div class="columna_dos">
+            <ul class="lista_menu">
+                <li><a class="items_menu" href="index.html">Inicio</a></li>
+                <li><a class="items_menu" href="https://www.starbucks.com.co/menu">Menu</a></li>
+                <li><a class="items_menu" href="https://www.starbucks.com.co/seccion/novedades">Novedades</a></li>
+                <li><a class="items_menu" href="https://www.starbucks.com.co/stores">Contacto</a></li>
+            </ul>
+            <div class="circulo" id="circulo"></div>
+            <div class="img_principal" id="img_principal">
+                <img src="../ESTILOS/img/img1.png" id="imagen_principal" alt="img_principal">
+            </div>
+        </div>
+        <div class="columna_tres">
+            <ul class="lista_redes_sociales">
+                <li><a class="items_redes_sociales" href="https://www.facebook.com/StarbucksColombia/?locale=es_LA"><img src="../ESTILOS/img/facebook.png" alt="logo_facebook"></a></li>
+                <li><a class="items_redes_sociales" href="https://twitter.com/Starbucks"><img src="../ESTILOS/img/twitter.png" alt="logo_twitter"></a></li>
+                <li><a class="items_redes_sociales" href="https://www.instagram.com/starbuckscol/?hl=es"><img src="../ESTILOS/img/instagram.png" alt="logo_instagram"></a>
+                </li>
+            </ul>
+        </div>
+        <div class="fila_uno">
+            <ul class="productos_miniaturas">
+                <li><a class="items_productos" id="producto_uno"><img src="../ESTILOS/img/img1.png" alt="producto_uno"
+                            onclick="cambiarImagenPrincipal('../ESTILOS/img/img1.png')"></a>
+                </li>
+                <li><a class="items_productos" id="producto_dos"><img src="../ESTILOS/img/img2.png" alt="producto_dos"
+                            onclick="cambiarImagenPrincipal('../ESTILOS/img/img2.png')"></a>
+                </li>
+                <li><a class="items_productos" id="producto_tres"><img src="../ESTILOS/img/img3.png" alt="producto_tres"
+                            onclick="cambiarImagenPrincipal('../ESTILOS/img/img3.png')"></a>
+                </li>
+            </ul>
+        </div>
+    </div>
+    <script src="../JS/script.js"></script>
+</body>
+
+</html>
